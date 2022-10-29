@@ -1,9 +1,9 @@
 window.onload = init;
-function init() {
+init () => {
     generateQuote()
 }
 
-function generateQuote() {
+generateQuote () => {
     let quoteSize = QUOTEBANK.length;
     let randomIndex = Math.floor(Math.random() * quoteSize);
     let randomQuoteData = QUOTEBANK[randomIndex];
